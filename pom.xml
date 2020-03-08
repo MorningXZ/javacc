@@ -193,9 +193,11 @@
 	<modules>
 		<module>parser</module>
 		<module>codegen</module>
+<!-- 
 		<module>examples</module>
 		<module>grammars</module>
-	</modules>
+ -->
+ 	</modules>
 
 
 	<build>
