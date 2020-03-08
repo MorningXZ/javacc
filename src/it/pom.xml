@@ -13,6 +13,23 @@
 	<properties>
 		<javacc>7.0.5</javacc>
 	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.javacc</groupId>
+			<artifactId>parser</artifactId>
+			<version>8.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.javacc.codegen</groupId>
+			<artifactId>java</artifactId>
+			<version>8.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.javacc.codegen</groupId>
+			<artifactId>cpp</artifactId>
+			<version>8.0.0-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 	<build>
 		<plugins>
 			<plugin>
